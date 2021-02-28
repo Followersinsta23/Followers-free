@@ -1,0 +1,42 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+
+
+    <h1>Contact Us</h1>
+    <p>Send your message and we will contact you</p>
+    <p id="dis" style="color: lightgreen;font-weight: 30px; visibility: hidden;">Message has been sent</p>
+    <form class="contact-form">
+      <label for="">Name</label><br />
+      <input class="name" type="text" placeholder="Name" /><br />
+      <label for="">Email</label><br />
+      <input class="email" type="email" placeholder="Email" /><br />
+      <label for="">Message</label><br />
+      <textarea
+        class="message"
+        name=""
+        id=""
+        cols="30"
+        rows="8"
+        placeholder="Message"
+      ></textarea
+      ><br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
