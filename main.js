@@ -1,13 +1,12 @@
 
 var firebaseConfig = {
-    apiKey: "FindItOnFirebase",
-    authDomain: "FindItOnFirebase",
-    databaseURL: "FindItOnFirebase",
-    projectId: "FindItOnFirebase",
-    storageBucket: "FindItOnFirebase",
-    messagingSenderId: "FindItOnFirebase",
-    appId: "FindItOnFirebase",
-    measurementId: "FindItOnFirebase"
+    apiKey: "AIzaSyBd6m5jnvj_mLtGSrEFH-fhVflinEECjys",
+  authDomain: "fourth-buffer-324708.firebaseapp.com",
+  projectId: "fourth-buffer-324708",
+  storageBucket: "fourth-buffer-324708.appspot.com",
+  messagingSenderId: "773872772446",
+  appId: "1:773872772446:web:176b2b4a8e243dcaa95bcf",
+  measurementId: "G-ZFB1HQ5HK1"
 };
 
   firebase.initializeApp(firebaseConfig);
