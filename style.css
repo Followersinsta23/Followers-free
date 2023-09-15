@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: inter;
+  font-family: open sans;
   font-weight: normal;
-background: #1ABC9C;
+background: #feda75;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 p {
   text-align: center;
   margin: 15px auto 0px auto;
-  font-size: 16px;
+  font-size: 12px;
   width: 80%;
 }
 .contact-form {
@@ -28,7 +28,7 @@ p {
 }
 
 .contact-form label {
-  font-size: 20px;
+  font-size: 16px;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -40,7 +40,7 @@ p {
   border-bottom: 2px solid #ccc;
   background: rgb(255, 255, 255);
   font-size: 18px;
-  border-radius: 3px;
+  border-radius: 25px;
   margin-bottom: 20px;
   width: 100%;
 }
@@ -67,14 +67,14 @@ p {
 }
 
 .contact-form button {
-  font-size: 19px;
+  font-size: 18px;
   width: 100%;
   margin-top: 25px;
   border: none;
   padding: 12px 20px;
-  background-color: #22b352;
+  background-color: blue;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 50px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
   border-bottom: 3px solid #1a883f;
